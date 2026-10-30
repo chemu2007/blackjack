@@ -79,7 +79,6 @@ def gameplay(cpus, players, games):
                 tempFlag = False
 
                 while tempFlag == False:
-                    print(cpuCardCount)
                     if sum(cardCount) <= 17:
                         print(f"Cpu {i+1} with cards {cardCount} ({sum(cardCount)}) hits.")
                         cardCount.append(deal(0))
